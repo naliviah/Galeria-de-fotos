@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galeria de Fotos</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="container">
+  <fieldset>
+  <h1 class="titulo-galeria">Galeria de Fotos</h1>
+  <h6>Clique em uma miniatura para exibir a imagem ou use os botões para navegar.</h6>
+
+  <div class="galeria-container">
+    <div class="imagem-principal-container">
+      <button id="anterior" class="seta">&#8592;</button>
+      <img id="imagem-principal" src="imagens/1.jpg" alt="Imagem grande"/>
+      <button id="proxima" class="seta">&#8594;</button>
+    </div>
+
+    <div class="miniaturas" id="miniaturas">
+      <!-- Miniaturas geradas dinamicamente -->
+    </div>
+  </div>
+</fieldset>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
